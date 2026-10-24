@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.meador793/the-nothing",
+  "title": "The Nothing",
+  "description": "Mr. Decoupler: a do-nothing MCP seam between AI and your databases. Sometimes less is more.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/meador793/the-nothing",
+  "repository": {
+    "url": "https://github.com/meador793/the-nothing",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/meador793/the-nothing/main/assets/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/meador793/the-nothing/main/assets/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "the-nothing-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

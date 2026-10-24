@@ -1,0 +1,63 @@
+{
+  "name": "the-nothing",
+  "displayName": "The Nothing (Mr. Decoupler) — MCP Server",
+  "description": "An MCP server that does nothing, on purpose. Mr. Decoupler is a no-op seam between AI and your databases and datasets. Sometimes less is more.",
+  "version": "1.0.0",
+  "publisher": "benmeador",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "copilot",
+    "no-op",
+    "decoupling",
+    "database",
+    "dataset",
+    "mr decoupler",
+    "less is more"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meador793/the-nothing.git"
+  },
+  "homepage": "https://github.com/meador793/the-nothing#readme",
+  "bugs": {
+    "url": "https://github.com/meador793/the-nothing/issues"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "theNothing.mcpServer",
+        "label": "The Nothing"
+      }
+    ],
+    "commands": [
+      {
+        "command": "theNothing.about",
+        "title": "The Nothing: About Mr. Decoupler"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "npx -y @vscode/vsce package",
+    "publish:vsce": "npx -y @vscode/vsce publish",
+    "publish:ovsx": "npx -y ovsx publish"
+  }
+}

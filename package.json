@@ -1,0 +1,72 @@
+{
+  "name": "the-nothing-mcp",
+  "version": "1.0.0",
+  "description": "The Nothing (a.k.a. Mr. Decoupler): an MCP server that does nothing, on purpose. A zero-dependency-on-your-data decoupling layer between AI and databases/datasets. Sometimes less is more.",
+  "mcpName": "io.github.meador793/the-nothing",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "the-nothing": "src/index.js",
+    "the-nothing-mcp": "src/index.js"
+  },
+  "exports": {
+    ".": "./src/server.js"
+  },
+  "files": [
+    "src",
+    "assets/icon.png",
+    "assets/icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http",
+    "test": "node scripts/smoke-test.mjs",
+    "set-username": "node scripts/set-username.mjs",
+    "build:vscode": "node scripts/build-vscode.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "the-nothing",
+    "mr-decoupler",
+    "decoupling",
+    "no-op",
+    "noop",
+    "pass-through",
+    "database",
+    "dataset",
+    "claude",
+    "claude-desktop",
+    "chatgpt",
+    "github-copilot",
+    "cursor",
+    "windsurf",
+    "gemini",
+    "grok",
+    "less-is-more"
+  ],
+  "author": "Ben Meador (https://www.npmjs.com/~beencold)",
+  "license": "MIT",
+  "homepage": "https://github.com/meador793/the-nothing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meador793/the-nothing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meador793/the-nothing/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
