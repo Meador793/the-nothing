@@ -31,11 +31,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/meador793/the-nothing.git"
+    "url": "https://github.com/Meador793/the-nothing.git"
   },
-  "homepage": "https://github.com/meador793/the-nothing#readme",
+  "homepage": "https://github.com/Meador793/the-nothing#readme",
   "bugs": {
-    "url": "https://github.com/meador793/the-nothing/issues"
+    "url": "https://github.com/Meador793/the-nothing/issues"
   },
   "main": "./extension.js",
   "activationEvents": [

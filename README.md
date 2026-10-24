@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meador793/the-nothing/main/assets/icon.png" width="160" alt="The Nothing: three dots on black">
+  <img src="https://raw.githubusercontent.com/Meador793/the-nothing/main/assets/icon.png" width="160" alt="The Nothing: three dots on black">
 </p>
 
 <h1 align="center">The Nothing</h1>
@@ -155,6 +155,6 @@ See [PUBLISHING.md](PUBLISHING.md) for releasing to npm, the official MCP Regist
 MIT
 
 <!-- Required by the official MCP Registry for ownership verification -->
-mcp-name: io.github.meador793/the-nothing
+mcp-name: io.github.Meador793/the-nothing
 
 <p align="center">...</p>

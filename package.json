@@ -2,7 +2,7 @@
   "name": "the-nothing-mcp",
   "version": "1.0.0",
   "description": "The Nothing (a.k.a. Mr. Decoupler): an MCP server that does nothing, on purpose. A zero-dependency-on-your-data decoupling layer between AI and databases/datasets. Sometimes less is more.",
-  "mcpName": "io.github.meador793/the-nothing",
+  "mcpName": "io.github.Meador793/the-nothing",
   "type": "module",
   "main": "src/server.js",
   "bin": {
@@ -51,13 +51,13 @@
   ],
   "author": "Ben Meador (https://www.npmjs.com/~beencold)",
   "license": "MIT",
-  "homepage": "https://github.com/meador793/the-nothing#readme",
+  "homepage": "https://github.com/Meador793/the-nothing#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meador793/the-nothing.git"
+    "url": "git+https://github.com/Meador793/the-nothing.git"
   },
   "bugs": {
-    "url": "https://github.com/meador793/the-nothing/issues"
+    "url": "https://github.com/Meador793/the-nothing/issues"
   },
   "engines": {
     "node": ">=18"

@@ -39,7 +39,7 @@ npx -y the-nothing-mcp          # stdio
 npx -y the-nothing-mcp --http   # remote / Streamable HTTP
 ```
 
-Setup for every client: https://github.com/meador793/the-nothing
+Setup for every client: https://github.com/Meador793/the-nothing
 
 Requires VS Code 1.101 or newer.
 
